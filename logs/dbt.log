@@ -1,0 +1,31 @@
+[0m13:17:44.393019 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021277AB5390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002127AF07810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002127AF06F10>]}
+
+
+============================== 13:17:44.397019 | 68481f2f-b50e-482d-8071-f27b7bf8c89a ==============================
+[0m13:17:44.397019 [info ] [MainThread]: Running with dbt=1.9.0
+[0m13:17:44.398019 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\hp\\.dbt', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt init', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m13:17:44.417020 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse logging event dictionary. Failed to parse dir field: expected string or bytes-like object, got 'WindowsPath'.. Dictionary: {'dir': WindowsPath('C:/Users/hp/.dbt')}
+[0m13:17:44.418020 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m13:17:54.211669 [debug] [MainThread]: Starter project path: C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\include\starter_project
+[0m13:17:54.245505 [info ] [MainThread]: 
+Your new dbt project "dbt_dummy" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m13:17:54.246504 [info ] [MainThread]: Setting up your profile.
+[0m13:22:50.044020 [info ] [MainThread]: Profile dbt_dummy written to C:\Users\hp\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m13:22:50.045020 [debug] [MainThread]: Command `dbt init` succeeded at 13:22:50.045020 after 305.74 seconds
+[0m13:22:50.046019 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021274531F10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021274531390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000212745B7390>]}
+[0m13:22:50.047021 [debug] [MainThread]: Flushing usage events
+[0m13:22:50.421617 [debug] [MainThread]: An error was encountered while trying to flush usage events
